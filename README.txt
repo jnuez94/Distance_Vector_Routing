@@ -7,7 +7,7 @@ Usage:
 python router.py <listen_port> <interface1> <interface2> […]
 
 Sample:
-python router.py 2000 128.59.15.38:2001:4 128.59.15.38:2002:6
+python router.py 2000 128.59.15.38:2001:4 128.59.15.38:2002:6 
 python router.py 2001 128.59.15.38:2000:4 128.59.15.38:2002:1
 python router.py 2002 128.59.15.38:2000:6 128.59.15.38:2001:1 128.59.15.38:2003:3
 python router.py 2003 128.59.15.38:2002:3
